@@ -38,9 +38,7 @@ dependencies:
   sharp:
     specifier: ^0.33.2
     version: 0.33.2
-  katex: 
-    specifier: ^0.16.4
-    version: 0.16.4
+  
 
 devDependencies:
   '@astrojs/check':
