@@ -1,7 +1,7 @@
 ---
 title: "Quantum Mechanics I"
 description: "This post contains some important points from my quantum physics introductory course at IISER Berhampur."
-publishDate: "10 March 2024"
+publishDate: "13 May 2024"
 tags: ["test"]
 ---
 
