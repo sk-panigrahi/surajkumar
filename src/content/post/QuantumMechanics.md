@@ -15,10 +15,10 @@ This note has some important portions of introductory Quantum Physics course.
 2. Physically measurable quantities or observables are all Hermitian operators.
 3. $\hat{A}\ket{\psi} = a_{n} \ket{\psi}$
    where $a_n = \ket{\psi}$
-4. Probability
-$$
+4. Probability:
+$
 P_n = \frac{|\braket{\psi|\psi}|^2}{\braket{\psi}} = \frac{|a_n|^2}{\braket{\psi|\psi}}
-$$
+$
 
 5. Time evolution : $i\hbar\left(\frac{\partial \ket{\psi (t)}}{\partial t} \right) = \hat{H} \ket{\psi (t)}$
 
@@ -34,24 +34,29 @@ $$
 where, $\sigma_A = |sqrt{\braket{\hat A^2}-\braket{\hat A}^2}$
 
 - proof:
-$$
-\sigma_A ^2 = \braket{(\hat A - \braket{\hat A})\psi|(\hat A - \braket{\hat A})\psi} = \braket{f|f}$$
-Similarly,$$
+$
+\sigma_A ^2 = \braket{(\hat A - \braket{\hat A})\psi|(\hat A - \braket{\hat A})\psi} = \braket{f|f}$
+
+Similarly,
+
+$
 \sigma_B ^2 = \braket{(\hat B - \braket{\hat B})\psi|(\hat B - \braket{\hat B})\psi} = \braket{g|g}
-$$
-$$
+$
+$
 \braket{f|g} = \braket{(\hat A - \braket{\hat A})\psi|(\hat B - \braket{\hat B})\psi}
 \\
 = \braket{\hat A \hat B} - \braket{\hat B} \braket{\hat A}
-$$
+$
 
-$$
+$
 \braket{g|f} = \braket{(\hat A - \braket{\hat A})\psi|(\hat B - \braket{\hat B})\psi}
 \\
 = \braket{\hat B \hat A} - \braket{\hat B} \braket{\hat A}
-$$
+$
 
-but also, $\sigma_A^2\sigma_B^2 = \braket{f|f} \braket{g|g} \geq |\braket{f|g}| \geq \left(\frac{1}{2i} [ \braket{f|g} - \braket{g|f}] \right)^2$
+but also, 
 
-$$\therefore \sigma_A \sigma_B \geq  \frac{1}{2}|\braket{[\hat A, \hat B]}|$$
+$\sigma_A^2\sigma_B^2 = \braket{f|f} \braket{g|g} \geq |\braket{f|g}| \geq \left(\frac{1}{2i} [ \braket{f|g} - \braket{g|f}] \right)^2$
+
+$\therefore \sigma_A \sigma_B \geq  \frac{1}{2}|\braket{[\hat A, \hat B]}|$
 
