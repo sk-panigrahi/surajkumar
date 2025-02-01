@@ -74,7 +74,7 @@ temptouch(){
   fi 
 }
 ```
-Now <kbd>ESC</kbd> and <kbd>:wq<kbd> to save and quit neovim. 
+Now <kbd>ESC</kbd> and <kbd>:wq</kbd> to save and quit neovim. 
 
 Now you can use it as:
 ```sh
